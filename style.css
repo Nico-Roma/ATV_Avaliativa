@@ -65,3 +65,18 @@ h2{ margin:24px 0 12px; font-size:28px; }
 @media (max-width: 480px){
   .grade-cards{ grid-template-columns: 1fr; }
 }
+
+.Autores{
+  margin-top: 10px; left: 10px; right: 10px;
+  background:rgb(63, 63, 63); color:#fffdfd;
+  display:flex; justify-content:space-between;
+  padding:12px 16px; box-shadow:0 2px 6px rgba(0,0,0,.08);
+}
+
+
+.textos{
+  display: flex; 
+  margin-left: 150px; right: 150px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
