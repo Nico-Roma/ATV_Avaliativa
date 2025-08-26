@@ -1,39 +1,157 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mangá Store</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mangá Store</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <nav id="navbar">
+  <nav id="navbar">
     <div class="logo">Mangá Store</div>
     <ul id="menu">
-        <li><a href="#Mangás">Mangás</a></li>
-        <li><a href="#Manhuas">Manhuas</a></li>
-        <li><a href="#Manhwas">Manhwas</a></li>
+      <li><a href="#Mangas">Mangás</a></li>
+      <li><a href="#Manhuas">Manhuas</a></li>
+      <li><a href="#Manhwas">Manhwas</a></li>
     </ul>
-</nav>
+  </nav>
 
-<header>
-    <h1>Mangá Store — Historias para tudo e todos</h1>
-</header>
-    <h2>Mangás</h2>
-    <div class="Mangás">
-        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/s/o/sonobisqui14.jpg" alt="Sono Bisque Doll">
-        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/p/e/pessoal01.jpg" alt="Entre O Profissional E O Pessoal - On/Off">
-        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/k/a/kaiju14.jpg" alt="Kaiju N.° 8 ">
-        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/e/l/elderringbecome1.jpg" alt="Elden Ring: Become Lord">
-        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/n/o/noamexa12.jpg" alt="Não Mexa Comigo, Nagatoro">
-        
-    </div >
-    <div class="conteiner">
-        <a href="https://www.comix.com.br/sono-bisque-doll-minha-adoravel-cosplayer-14.html">Sono Bisque Doll: Minha Adorável Cosplayer 14 <br> R$38,17</a>
-        <a href="https://www.comix.com.br/entre-o-profissional-e-o-pessoal-on-off-vol-01.html">Entre O Profissional E O Pessoal - On/Off Vol 01 <br> R$37,32</a>
-        <a href="https://www.comix.com.br/kaiju-n-8-vol-14.html">Kaiju N.° 8 Vol. 14 <br> R$37,32</a>
-        <a href="https://www.comix.com.br/elden-ring-become-lord-vol-01.html">Elden Ring: Become Lord Vol 01 <br> R$50,92</a>
-        <a href="https://www.comix.com.br/n-o-mexa-comigo-nagatoro-12.html">Não Mexa Comigo, Nagatoro 12 <br> R$37,32</a>
-    </div>
+  <header>
+    <h1>Mangá Store — Histórias para tudo e todos</h1>
+  </header>
+
+  <main class="container">
+
+    <h2 id="Mangas">Mangás</h2>
+    <section class="grade-cards">
+      <article class="card">
+        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/s/o/sonobisqui14.jpg" alt="Sono Bisque Doll: Minha Adorável Cosplayer 14"/>
+        <a class="titulo" href="https://www.comix.com.br/sono-bisque-doll-minha-adoravel-cosplayer-14.html">
+          Sono Bisque Doll: Minha Adorável Cosplayer 14
+          <span class="preco">R$ 38,17</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/p/e/pessoal01.jpg" alt="Entre O Profissional E O Pessoal - On/Off Vol. 01"/>
+        <a class="titulo" href="https://www.comix.com.br/entre-o-profissional-e-o-pessoal-on-off-vol-01.html">
+          Entre O Profissional E O Pessoal - On/Off Vol. 01
+          <span class="preco">R$ 37,32</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/k/a/kaiju14.jpg" alt="Kaiju N.º 8 Vol. 14"/>
+        <a class="titulo" href="https://www.comix.com.br/kaiju-n-8-vol-14.html">
+          Kaiju N.º 8 Vol. 14
+          <span class="preco">R$ 37,32</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/e/l/elderringbecome1.jpg" alt="Elden Ring: Become Lord Vol. 01"/>
+        <a class="titulo" href="https://www.comix.com.br/elden-ring-become-lord-vol-01.html">
+          Elden Ring: Become Lord Vol. 01
+          <span class="preco">R$ 50,92</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://www.comix.com.br/media/catalog/product/cache/368852526d07b47f9ba19ccfaea17e2a/n/o/noamexa12.jpg" alt="Não Mexa Comigo, Nagatoro 12"/>
+        <a class="titulo" href="https://www.comix.com.br/n-o-mexa-comigo-nagatoro-12.html">
+          Não Mexa Comigo, Nagatoro 12
+          <span class="preco">R$ 37,32</span>
+        </a>
+      </article>
+    </section>
+
+    <h2 id="Manhuas">Manhuas</h2>
+    <section class="grade-cards">
+      <article class="card">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_609764-MLU77933074902_082024-O.webp" alt="Solo Leveling Vol. 1 (Manhua estilo capa)"/>
+        <a class="titulo" href="https://www.mercadolivre.com.br/solo-leveling-01-chugong-de-chugong-editorial-panini-tapa-mole-en-portugus-2024/p/MLB38687186?matt_tool=18956390&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMLB5626937520&from=gshop">
+          Solo Leveling Vol. 1
+          <span class="preco">R$ 65,42</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/815ivDLx5pL._SL1500_.jpg" alt="The Beginning After The End Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/Beginning-After-End-Full-Color/dp/8583624712/ref=asc_df_8583624712?mcid=80cd047bef8e318aa605fc76dbc3c200&tag=googleshopp00-20&linkCode=df0&hvadid=709857900456&hvpos=&hvnetw=g&hvrand=18413770355197156140&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9219313&hvtargid=pla-2293741768945&psc=1&language=pt_BR&gad_source=1">
+          The Beginning After the End – Volume 02 (Full Color)
+          <span class="preco">R$ 48,90</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/51u4nbOT8ML._SY445_SX342_.jpg" alt="Omniscient Reader Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/Omniscient-Readers-Viewpoint-Vol-1/dp/B0CCNFHFZD?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A1ZZFT5FULY4LN">
+          Omniscient Reader's Viewpoint, Vol. 1
+          <span class="preco">R$ 32,23</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIKmhpitx6y2MW1OZUnregEprlT_VohiUJ8tZk10vV4XbmKqib7LGWqXUrSe5C6DqOY5mgaHQxKJVZNP0XRtiBTQhtdH3JagxFSVdu8-wzSmUI8Ce2JThC" alt="Tower of God Vol. 1"/>
+        <a class="titulo" href="VTJGc2RHVmtYMTlxTFVSVVRrdENkVHQ3ZkZSUTMrR3pBWmZZNzdrcnRBMWhnZWhpMHFycjdyRnQzVFVqMkxyb3cyalNOZXY0d1Jnb0lhQytlbGZlN25pUFBRajRaTEF6MzhJRlkvOEtGSXBya3NNb1p0UGRVZzBQVWE0L3Mwd3pYdUhRQUhIZ3Q2UG9QY08zZXVJaXRnPT0">
+          Tower of God Vol. 1
+          <span class="preco">R$ 49,90</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/41Rwo166yqS._SY445_SX342_.jpg" alt="Eleceed Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/Eleceed-Vol-1-Chapter-1-English-ebook/dp/B0981ZY64X">
+          Eleceed, Vol.1- Chapter 1 (English Edition)
+          <span class="preco">R$ 14,75 - 154,91</span>
+        </a>
+      </article>
+    </section>
+
+    <h2 id="Manhwas">Manhwas</h2>
+    <section class="grade-cards">
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/51AZx4257XL._SY445_SX342_.jpg" alt="The Breaker Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/Breaker-Omnibus-Vol-1/dp/1950912248?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2EB9PYM83FCP9">
+          The Breaker Omnibus Vol 1
+          <span class="preco">R$ 127,44</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/519y2Vrq1vL._SY445_SX342_.jpg" alt="Noblesse Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/Noblesse-One-Webtoon-Unscrolled-Graphic/dp/1998854019">
+          Noblesse Vol. 1
+          <span class="preco">R$ 140,78</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/51BF30R27jL._SY445_SX342_.jpg" alt="God of High School Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/God-High-School-One-Unscrolled/dp/1990778747">
+          The God of High School Vol. 1
+          <span class="preco">R$ 72,83</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/51SZBWG04tL._SY445_SX342_.jpg" alt="DICE: The Cube That Changes Everything Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com/DICE-T1-YUN-HYUN-SEOK/dp/2902487150">
+          DICE: The Cube That Changes Everything Vol. 1
+          <span class="preco">US$ 9,82</span>
+        </a>
+      </article>
+
+      <article class="card">
+        <img src="https://m.media-amazon.com/images/I/81ZWdNqhWyL._SL1500_.jpg" alt="Lookism Vol. 1"/>
+        <a class="titulo" href="https://www.amazon.com.br/Viral-Hit-One-Webtoon-Unscrolled/dp/1998854728?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2EB9PYM83FCP9">
+          Viral Hit Volume One Vol. 1
+          <span class="preco">R$ 116,00</span>
+        </a>
+      </article>
+    </section>
+  </main>
+
 </body>
 </html>
